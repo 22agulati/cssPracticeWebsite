@@ -1,0 +1,159 @@
+/******** ELEMENT ATTRIBUTES ********/
+
+div {
+  padding: 20px;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 50px;
+  color: #ef4f4f;
+  line-height: 0.75;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  color: #433d3c;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #f8f1f1;
+  border-width: 8px;
+  width: 5%;
+  height: 20px;
+}
+
+/******** CLASS ATTRIBUTES ********/
+
+.intro {
+  color: #ef4f4f;
+  font-weight: normal;
+}
+
+.top-container {
+  background-color: #d4e2d4;
+  margin: 0;
+  position: relative;
+  padding-top: 100px;
+}
+
+.cs {
+  font-weight: 600;
+}
+
+.ai {
+  font-weight: 600;
+}
+
+.intro {
+  position: relative;
+  left: 15px;
+}
+
+.b-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.u-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-container {
+  background-color: #ecb390;
+  margin: 0;
+  position: relative;
+  padding-top: 30px;
+}
+
+.middle-container {
+  background-color: #df7861;
+  margin: 0;
+  position: relative;
+  padding-top: 20px;
+}
+
+.eecs {
+  height: 33%;
+  width: 33%;
+  float: left;
+  margin-right: 50px;
+}
+
+.udemy {
+  width: 45%;
+  height: 45%;
+  float: right;
+  margin-left: 50px;
+}
+
+.footer-link {
+  color: #433d3c;
+}
+
+.edu {
+  margin: 60px auto 60px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 1.5;
+  padding: 0;
+}
+
+.contact-button {
+   background: #DDDDDD;
+   background-image: -webkit-linear-gradient(top, #DDDDDD, #F05454);
+   background-image: -moz-linear-gradient(top, #DDDDDD, #F05454);
+   background-image: -ms-linear-gradient(top, #DDDDDD, #F05454);
+   background-image: -o-linear-gradient(top, #DDDDDD, #F05454);
+   background-image: -webkit-gradient(to bottom, #DDDDDD, #F05454);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   height: 50px;
+   line-height: 50px;
+   color: #FFFFFF;
+   font-family: 'Nunito Sans', sans-serif;
+   width: 200px;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 6px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 20px auto 20px auto;
+}
+
+.contact-button:hover {
+   background: #F05454;
+   border: solid #F05454 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.footer-link {
+  margin: 20px 20px auto;
+  font-size: 17px;
+}
